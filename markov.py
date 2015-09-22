@@ -1,21 +1,13 @@
 import random
+import nltk
 
 class Markov(object):
 	
-	def __init__(self, open_file):
+	def __init__(self, words):
 		self.cache = {}
-		self.open_file = open_file
-		self.words = self.file_to_words()
+		self.words = words
 		self.word_size = len(self.words)
 		self.database()
-		
-	
-	def file_to_words(self):
-		self.open_file.seek(0)
-		data = self.open_file.read()
-		words = data.split()
-		return words
-		
 	
 	def triples(self):
 		""" Generates triples from the given data string. So if our string were
@@ -48,6 +40,6 @@ class Markov(object):
 		gen_words.append(w2)
 		return ' '.join(gen_words)
 
-genMarkov = Markov(object)
+genMarkov = Markov(nltk.corpus.genesis.words())
 
-print genMarkov.generate_markov_text()
+print (genMarkov.generate_markov_text())
