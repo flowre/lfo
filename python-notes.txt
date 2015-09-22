@@ -1,0 +1,77 @@
+
+Resources
+=========
+
+[Python 2 documentation](https://docs.python.org/2/index.html)
+
+
+Control flow
+============
+
+
+
+Classes (object oriented programming)
+=====================================
+
+A class is the definition of an object. Once defined, new objects of that class
+can be created.
+
+Getters and setters
+-------------------
+
+<https://stackoverflow.com/questions/6618002/python-property-versus-getters-and-setters>
+
+
+Namespaces
+==========
+
+
+
+Modules
+=======
+
+**Module**: a Python source file
+
+Packages
+========
+
+**Package**: a directory containing Python modules and an `__init__.py` file
+
+[Python tutorial---Packages](https://docs.python.org/2/tutorial/modules.html#packages)
+
+[Python package index](https://pypi.python.org/pypi?%3Aaction=browse)
+
+virtualenv
+----------
+
+
+Python tools
+============
+
+
+Using vim with Python
+---------------------
+
+
+
+
+Design patterns
+===============
+
+Factory
+-------
+
+Flyweight
+---------
+
+
+Programming paradigms
+=====================
+
+- object oriented
+- functional
+
+Testing
+=======
+
+<http://docs.python-guide.org/en/latest/writing/tests/>
