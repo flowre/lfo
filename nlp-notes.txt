@@ -1,0 +1,8 @@
+% Natural language processing notes
+% Fall 2015
+
+Natural language processing libraries
+=====================================
+
+NLTK
+----
