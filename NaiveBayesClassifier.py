@@ -26,7 +26,7 @@ class NaiveBayes:
 
 
 
-def feature_extract(sentence, i):
+def feature_extract(sent, i):
     # Extract features of interest where sent is observed states and i is the index
     features = {}
 

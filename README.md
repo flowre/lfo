@@ -18,3 +18,6 @@ Just a personal project for a class, feel free to help if you guys have ideas.
 Basically using Markov chains to generate "word salad" poems, but I want to implement as much structure as I can (i.e. meter, rhyme)
 
 Train using whatever corpus and generate poems accordingly.
+
+Possible Application for Naive Bayes:
+https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews
