@@ -3,7 +3,7 @@ from collections import Counter
 import nltk
 # See more at NLTK Chapter 6
 # P(label|features) = P(features, label)/P(features)
-# P(features) is consistent for each label, so it suffices to calculate P(features, label)
+# P(features) is constant for each label, so it suffices to calculate P(features, label)
 # P(features, label) = P(label) x P(features|label)
 class NaiveBayes:
     def __init__(self):
