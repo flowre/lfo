@@ -17,16 +17,16 @@ class MarkovChain:
                 self.transitionMatrix[s][a] = cfd[s][a] / fdist[s]
 
     # Get some start probabilities and instigate a sentence with them
-    # Should implement some triple based generation
     # incorporate random choice using numpy, that'll end the infinite loop
-    def generate(self, length):
+    def generate(self):
         # Should do seed = random.randint(0,len(self.states))
         # seed, next = self.states[seed], self.states[seed+1]
         # Gets first bigram
         seed = self.states[random.randint(0,len(self.states))]
-        l = 1
-        generated_states = []
-        generated_states.append(seed)
+        line1 = []
+        line2 = []
+        line3 = []
+        line1.append(seed)
         while l <= length:
             seed = choice((list(self.transitionMatrix[seed].keys())), 1, list(self.transitionMatrix[seed].values()))
             print(seed)
